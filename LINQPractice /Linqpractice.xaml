@@ -1,0 +1,47 @@
+
+<Window x:Class="Practiceforunstd2.Linqpractice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LINQ Practice"
+        Height="350"
+        Width="600"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="LightPink">
+
+        <Border Background="White"
+                CornerRadius="15"
+                Padding="30"
+                Margin="30">
+
+            <StackPanel VerticalAlignment="Center">
+
+                <TextBlock Text="LINQ Practice"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="DeepPink"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <TextBlock Text="Practice LINQ operations in C#"
+                           FontSize="16"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25"/>
+
+                <Button x:Name="linq"
+                        Content="Execute LINQ Programs"
+                        Width="220"
+                        Height="45"
+                        Background="DeepPink"
+                        Foreground="White"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Click="linq_Click"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</Window>
